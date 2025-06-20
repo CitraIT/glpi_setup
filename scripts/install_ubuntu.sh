@@ -153,13 +153,13 @@ EOF
 sudo mv /tmp/local_define.php /etc/glpi/local_define.php
 
 # 14. Definir as permissões corretas dos arquivos 
-sudo chown root:root /var/www/html/glpi/ -R
+sudo chown root:root /var/www/glpi/ -R
 sudo chown www-data:www-data /etc/glpi -R
 sudo chown www-data:www-data /var/lib/glpi -R
 sudo chown www-data:www-data /var/log/glpi -R
-sudo chown www-data:www-data /var/www/html/glpi/marketplace -Rf
-sudo find /var/www/html/glpi/ -type f -exec chmod 0644 {} \;
-sudo find /var/www/html/glpi/ -type d -exec chmod 0755 {} \;
+sudo chown www-data:www-data /var/www/glpi/marketplace -Rf
+sudo find /var/www/glpi/ -type f -exec chmod 0644 {} \;
+sudo find /var/www/glpi/ -type d -exec chmod 0755 {} \;
 sudo find /etc/glpi -type f -exec chmod 0644 {} \;
 sudo find /etc/glpi -type d -exec chmod 0755 {} \;
 sudo find /var/lib/glpi -type f -exec chmod 0644 {} \;
