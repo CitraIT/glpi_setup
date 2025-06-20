@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "#########################################################"
-echo " Script para Instalacao do GLPI no Ubuntu 22
+echo " Script para Instalacao do GLPI no Ubuntu 22"
 echo "#########################################################"
 
 # 1. Atualiza a lista de pacotes disponíveis no repositório.
